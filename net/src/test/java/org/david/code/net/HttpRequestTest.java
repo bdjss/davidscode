@@ -1,10 +1,11 @@
 package org.david.code.net;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-import org.junit.Before;
+import org.david.code.net.HttpRequest;
 import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertNotNull;
 
 /**
  * HttpRequest Tester.

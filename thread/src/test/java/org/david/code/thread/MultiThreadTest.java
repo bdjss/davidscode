@@ -1,8 +1,8 @@
 package org.david.code.thread;
 
-import org.junit.Test;
-import org.junit.Before;
 import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 
 /**
  * MultiThread Tester.
@@ -27,6 +27,11 @@ public class MultiThreadTest {
     @Test
     public void testRun() throws Exception {
         multiThread.run();
+    }
+
+    @Test
+    public void testRunBasic() throws Exception {
+        multiThread.runBasic();
     }
 
 

@@ -1,8 +1,8 @@
 package org.david.code.thread;
 
-import org.junit.Test;
-import org.junit.Before;
 import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 
 /**
  * ThreadSafe Tester.
