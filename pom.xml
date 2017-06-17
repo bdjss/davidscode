@@ -20,7 +20,8 @@
         <module>cache</module>
         <module>net</module>
         <module>thread</module>
-        <module>availability</module>
+        <module>ha</module>
+        <module>algorithm</module>
     </modules>
 
     <properties>
