@@ -16,7 +16,7 @@ public class RateLimit {
 
         int num = 10;
 
-        final RateLimiter rateLimiter = RateLimiter.create(5);
+        final RateLimiter rateLimiter = RateLimiter.create(5);//
         for (int i = 0; i < num; i++) {
             new Thread(new Runnable() {
                 public void run() {
@@ -33,7 +33,6 @@ public class RateLimit {
             }).start();
 
         }
-
 
         try {
             countDownLatch.await();
